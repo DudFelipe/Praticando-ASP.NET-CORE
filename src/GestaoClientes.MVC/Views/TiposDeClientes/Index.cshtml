@@ -1,0 +1,41 @@
+﻿@model IEnumerable<GestaoClientes.Domain.Models.TiposDeClientes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3>Adicionar Tipo de Cliente</h3>
+        </div>
+        <div class="card-body">
+            <p>
+                <a asp-controller="TiposDeClientes" asp-action="Create" class="btn btn-info">+ Adicionar</a>
+            </p>
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Descricao)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                            <td>
+                                <a asp-controller="TiposDeClientes" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                                <a asp-controller="TiposDeClientes" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalhes</a>
+                                <a asp-controller="TiposDeClientes" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Apagar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

@@ -1,0 +1,27 @@
+﻿@model GestaoClientes.Domain.Models.TiposDeClientes
+
+@{
+    ViewData["Title"] = "Adicionar tipo de cliente";
+}
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h3>Adicionar tipo de Cliente</h3>
+    </div>
+    <div class="card-body">
+        <form asp-controller="TiposDeClientes" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <partial name="_edit_create" />
+
+            <div class="form-group text-center">
+                <input type="submit" value="Adicionar" class="btn btn-success" />
+                <a asp-controller="TiposDeClientes" asp-action="Index" class="btn btn-primary">Voltar à Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

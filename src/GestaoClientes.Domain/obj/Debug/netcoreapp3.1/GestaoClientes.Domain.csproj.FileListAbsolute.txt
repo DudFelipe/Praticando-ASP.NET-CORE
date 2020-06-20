@@ -1,0 +1,9 @@
+D:\Projetos\Testes\src\GestaoClientes.Domain\bin\Debug\netcoreapp3.1\GestaoClientes.Domain.deps.json
+D:\Projetos\Testes\src\GestaoClientes.Domain\bin\Debug\netcoreapp3.1\GestaoClientes.Domain.dll
+D:\Projetos\Testes\src\GestaoClientes.Domain\bin\Debug\netcoreapp3.1\GestaoClientes.Domain.pdb
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.csprojAssemblyReference.cache
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.AssemblyInfoInputs.cache
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.AssemblyInfo.cs
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.dll
+D:\Projetos\Testes\src\GestaoClientes.Domain\obj\Debug\netcoreapp3.1\GestaoClientes.Domain.pdb

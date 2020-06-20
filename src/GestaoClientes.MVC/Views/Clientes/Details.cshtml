@@ -1,0 +1,19 @@
+﻿@model GestaoClientes.Domain.Models.Cliente
+
+@{
+    ViewData["Title"] = "Detalhes do Cliente";
+}
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h3>Detalhes do Cliente</h3>
+    </div>
+    <div class="card-body">
+
+        <partial name="_delete_details" />
+
+        <a asp-controller="Clientes" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Editar</a>
+        <a asp-controller="Clientes" asp-action="Index" class="btn btn-primary">Voltar à Lista</a>
+
+    </div>
+</div>
